@@ -1,0 +1,81 @@
+/* styles.css */
+
+/* Reset de estilos para garantir consistência entre navegadores */
+body, h1, h2, h3, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Box sizing: Border-box para facilitar o dimensionamento dos elementos */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Definindo uma fonte padrão e tamanho de texto para todo o documento */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Estilizando links para serem facilmente distinguíveis */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Definindo cores padrão para o tema do seu aplicativo */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+}
+
+/* Estilizando botões com as cores padrão definidas */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.primary-button {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.secondary-button {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+/* Estilizando inputs para uma aparência mais limpa */
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilizando o cabeçalho do aplicativo */
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilizando o rodapé do aplicativo */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
